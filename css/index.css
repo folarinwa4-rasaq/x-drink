@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 19.21%, #DBFFAC 64.63%);
+    position: relative;
+}
+
+
+/*navbar*/
+
+nav {
+    display: flex;
+    align-items: center;
+    border-radius: none;
+    border: 2px;
+    border-color: black;
+    justify-content: space-between;
+    height: 25px;
+}
+
+.nav-menu {
+    border-width: 1px;
+    border-bottom-width: 2px;
+    border-style: solid;
+    border-color: black;
+    height: 40px;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
+}
+
+ul {
+    display: flex;
+}
+
+.nav-img,
+.icon {
+    height: 25px;
+    margin-right: 20px;
+}
+
+.icon-img {
+    height: x;
+    position: relative;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.drop-down {
+    opacity: 0;
+}
+
+.drop-down:hover {
+    opacity: 1;
+}
+
+.icon-img .drop-down {
+    position: absolute;
+    top: 39px;
+    width: 130px;
+    right: 0px;
+    line-height: 35px;
+    background-color: white;
+    padding-left: 10px;
+}
+
+header {
+    margin-top: 23px;
+    width: 100%;
+}
+
+
+/*body*/
+
+.apple-img {
+    width: 550px;
+    height: 150px;
+    margin-top: 150px;
+    position: relative;
+}
+
+.apple-can-img {
+    width: 140px;
+    height: 270px;
+    position: absolute;
+    top: 120px;
+    left: 550px;
+}
+
+.orange-bot {
+    width: 140px;
+    position: absolute;
+    left: 555px;
+    bottom: -266px;
+}
+
+.apple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    position: relative;
+}
+
+a,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: black;
+}
